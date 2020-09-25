@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz App</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+        type="text/css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Welcome to Bowties & Books!</h1>
+            <ul id="menu">
+                <!-- links in nav would route to dif pages -->
+                <li><a href="#login">LOGIN</a></li>
+                <li><a href="#sign-up">SIGN-UP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- start of TBR Game Page -->
+
+        <!-- header would go at the top of this page too, -->
+        <!-- IF RETURNING USER: -->
+        <!-- nav would include a logout button routing to landing page -->
+        <!-- also, this header could say "welcome back . . ." -->
+        <!-- IF NEW USER: -->
+        <!-- nav would include a "sign-up" and "login" links routing to those pages -->
+        <!-- also, this header could say "welcome  . . ." -->
+
+        <!-- backside-of-card would eventually need to be 12 unique cards -->
+        <div>
+            <h3>I would like to read
+                <input type="text" placeholder="5" required />
+                books this month!
+            </h3>
+            <h3>Choose "X" cards!</h3>
+            <p>[this is placeholder for some cool card image 1]</p>
+            <p>[this is placeholder for some cool card image 2]</p>
+            <p>[this is placeholder for some cool card image 3]</p>
+            <button id="button-reveal-cards">REVEAL CARDS!</button>
+        </div>
+        <!-- end of TBR Game Page -->
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
